@@ -1,95 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <!--SEO Meta Tags-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name ="description"contact="Nasistu Wodajo - Customer-focused junior web developer learning at Techtonica. Passionate about building responsive, accessible, and user-friendly websites.">
-   <meta name ="keywords" content="Nasistu Wodajo,web developer,frontend,Portfolio,HTML,CSS,JavaScript,Bootstrap,Techtonica,accessibility, SEO">
-   
-    
+    <meta name="description"
+        contact="Nasistu Wodajo - Customer-focused junior web developer learning at Techtonica. Passionate about building responsive, accessible, and user-friendly websites.">
+    <meta name="keywords"
+        content="Nasistu Wodajo,web developer,frontend,Portfolio,HTML,CSS,JavaScript,Bootstrap,Techtonica,accessibility, SEO">
+
+
     <!--Open Graph Meta Tags (for social sharing)-->
-    <meta property="og:title" content="Nasistu Wodajo - Portfolio">
-    <meta property="og: description" content="A responshhfgive web developer Portfolio showcasing Project built with HTML, CSS, and JavaScript .">
-<meta property= "og: image" content="images/Portfolio-preview.png">
-<meta property="og: url" content="">
-<meta property="og: type" content="websites">
+    <meta property="og:title" content="Nasistu Wodajo - Portfolio"/>
+    <meta property="og: description" content="Frontend  developer Portfolio showcasing  and accessibility web projects"/>
+    <meta property="og:image" content="images/Portfolio-preview.png"/>
+    <meta property="og:url" content=""/>
+    <meta property="og:type" content="websites"/>
 
-<!-- Twitter Card Meta Tags -->
+    <!-- Twitter Card Meta Tags -->
 
-  <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="summary_large_image">
 
-  <meta name="twitter:title" content="Nasistu Wodajo - Portfolio">
+    <meta name="twitter:title" content="Nasistu Wodajo - Portfolio"/>
 
-  <meta name="twitter:description" content="Frontend developer portfolio showcasing responsive and accessible web projects.">
+    <meta name="twitter:description"
+        content="Frontend developer portfolio showcasing responsive and accessible web projects."/>
 
-  <meta name="twitter:image" content="images/Portfolio-preview.png">
+    <meta name="twitter:image" content="images/Portfolio-preview.png"/>
 
 
+    <!-- JUSON- LD (Structured Data)-->
+     <script type="application/ld+json">
+        {
+            "@context":"https://schema.org",
+            "type": "Person",
+            "name": "Nasistu Wodajo",
+            "url":"",
+            "jobTitle": "Web Developer",
+            "sameAS": [
+            "https://github.com/Nasisistu",
+            "https://www.linkedIn.com/in/Nasistu Wodajo"
+        }
+     </script>
+<!-- Canonical & Robots for SEO -->
+ <link rel="canonical" href="https://nasistu-portfolio.netlify.app/" />
+<meta name="robots" content="index, follow" />
 
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-<!-- < ! -- Header (Pattern: Hero/ Header) --> 
- <header id="top">
-    <nav href="nav">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-        <button id="theme-toggle "aria-label="Toggle theme"></button>
-    </nav>
-    <div class="hero">
-        <img class="avater" src=""alt="Nasistu headshot"/>
-        <h1>Nasistu Wodajo</h1>
-        <p class=" tagline"> Customer-focused junior web developer learning at Techtonica</p>
-        <div class="social">
-           <a href=""target="_blank" rel="noreferrer">GitHub</a>
-            <a href=""target= "_blank" rel="noreferrer">LinkedIn</a>
-            <a href="mailto: nasukebede00@gmail.com">Email</a>
+    <!-- < ! -- Header (Pattern: Hero/ Header) -->
+    <header id="top">
+        <nav href="nav">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <button id="theme-toggle " aria-label="Toggle theme"></button>
+        </nav>
+        <div class="hero">
+            <img class="avater" src="" alt="Nasistu headshot" />
+            <h1>Nasistu Wodajo</h1>
+            <p class=" tagline"> Customer-focused junior web developer learning at Techtonica</p>
+            <div class="social">
+                <a href="" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a href="mailto: nasukebede00@gmail.com">Email</a>
+            </div>
         </div>
-    </div>
- </header>
- <main>
-<!-- <! About (semantic section/article)--> 
- <section id="about" class="container">
-    <h2> About Me</h2>
-    <p> I enjoy building clean, user-friendly interfaces and practicing problem solving every day.</p>
-    <ul class="two-col">
-        <li>HTml</li></li>CSS<li></li>JavaScript</li><li>Bootstrap</li>GitHub<li>Vs Code</ul></ul>
- </section>
- <!-- (Projects: cards list)-->
-  <section id="Projects"classgi="container">
-    <h2>Projects</h2>
-    <div class="cards">
-        <article class="card" id="featured">
-            <img src=""alt= "Project screenshot"/>
-            <h3>Recipe Page</h3>
-            <P>Responsive Doro Wat recipe page with interactive ingredient List</P>
-            <a class="btn" href="#"target="_blank"rel="noreferrer">Live Demo</a>
-            <a class="but outline" href="#"target="_blank"rel="noreferrer">Source Code</a>
-        </article>    
-    </div>
-  </section>
-  <!--Contact form with required fileds-->
-  <section id="contact" class="container">
-    <h2>Contact</h2>
-    <form class="contact-form">
-        <label for="name">Name <span aria-hidden="true">*</span></label>
-        <input id="name" name="name"type="text"required placeholder="Nasis  tu"/>
-<label for="email">Email<span aria-hidden="true">*</span></label>
-<input id="email"name="email"type="email"required placeholder="nasukebede00@gmail.com"/>
-<label for="phone">phone</label>
-<input id="phone" name="phone" type="tel"placeholder="444444444"/>
-<label for="address">Address</label>
-<input id="address" name="address" type="text"placeholder="City,State"/>
-<button type ="submit" class="btn">Send</button>
-    </form>
-  </section>
- </main>
+    </header>
+    <main>
+        <!-- <! About (semantic section/article)-->
+        <section id="about" class="container">
+            <h2> About Me</h2>
+            <p> I enjoy building clean, user-friendly interfaces and practicing problem solving every day.</p>
+            <ul class="two-col">
+                <li>HTml</li>
+                </li>CSS<li></li>JavaScript</li>
+                <li>Bootstrap</li>GitHub<li>Vs Code
+            </ul>
+            </ul>
+        </section>
+        <!-- (Projects: cards list)-->
+        <section id="Projects" classgi="container">
+            <h2>Projects</h2>
+            <div class="cards">
+                <article class="card" id="featured">
+                    <img src="" alt="Project screenshot" />
+                    <h3>Recipe Page</h3>
+                    <P>Responsive Doro Wat recipe page with interactive ingredient List</P>
+                    <a class="btn" href="#" target="_blank" rel="noreferrer">Live Demo</a>
+                    <a class="but outline" href="#" target="_blank" rel="noreferrer">Source Code</a>
+                </article>
+            </div>
+        </section>
+        <!--Contact form with required fileds-->
+        <section id="contact" class="container">
+            <h2>Contact</h2>
+            <form class="contact-form">
+                <label for="name">Name <span aria-hidden="true">*</span></label>
+                <input id="name" name="name" type="text" required placeholder="Nasis  tu" />
+                <label for="email">Email<span aria-hidden="true">*</span></label>
+                <input id="email" name="email" type="email" required placeholder="nasukebede00@gmail.com" />
+                <label for="phone">phone</label>
+                <input id="phone" name="phone" type="tel" placeholder="444444444" />
+                <label for="address">Address</label>
+                <input id="address" name="address" type="text" placeholder="City,State" />
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>
+    </main>
 
     <footer>
-        <p> <span id="year"></span>  Made by Nasistu Wodajo . <a href="#top">Back to top</a></p>
+        <p> <span id="year"></span> Made by Nasistu Wodajo . <a href="#top">Back to top</a></p>
     </footer>
     <script src="script.js"></script>
 </body>
+
 </html>
