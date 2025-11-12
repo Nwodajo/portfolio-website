@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasistu Wodajo - Portfolio</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<!-- < ! -- Header (Pattern: Hero/ Header) --> 
+ <header id="top">
+    <nav href="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle "arria aria-label="Toggle theme"></button>
+    </nav>
+    <div class="hero">
+        <img class="avater" src=""alt="Nasistu headshot"/>
+        <h1>Nasistu Wodajo</h1>
+        <p class=" tagline"> Customer-focused junior web developer learning at Techtonica</p>
+        <div class="social">
+           <a href=""target="_blank" rel="noreferrer">GitHub</a>
+            <a href=""target= "_blank" rel="noreferrer">LinkedIn</a>
+            <a href="mailto: nasukebede00@gmail.com">Email</a>
+        </div>
+    </div>
+ </header>
+ <main>
+<!-- <! About (semantic section/article)--> 
+ <section id="about" class="container">
+    <h2> About Me</h2>
+    <p> I enjoy building clean, user-friendly interfaces and practicing problem solving every day.</p>
+    <ul class="two-col">
+        <li>HTml</li></li>CSS<li></li>JavaScript</li><li>Bootstrap</li>GitHub<li>Vs Code</ul></ul>
+ </section>
+ <!-- (Projects: cards list)-->
+  <section id="Projects"class="container">
+    <h2>Projects</h2>
+    <div class="cards">
+        <article class="card" id="featured">
+            <img src=""alt= "Project screenshot"/>
+            <h3>Recipe Page</h3>
+            <P>Responsive Doro Wat recipe page with interactive ingredient List</P>
+            <a class="btn" href="#"target="_blank"rel="noreferrer">Live Demo</a>
+            <a class="but outline" href="#"target="_blank"rel="noreferrer">Source Code</a>
+        </article>    
+    </div>
+  </section>
+  <!--Contact form with required fileds-->
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <form class="contact-form">
+        <label for="name">Name <span aria-hidden="true">*</span></label>
+        <input id="name" name="name"type="text"required placeholder="Nasis  tu"/>
+<label for="email">Email<span aria-hidden="true">*</span></label>
+<input id="email"name="email"type="email"required placeholder="nasukebede00@gmail.com"/>
+<label for="phone">phone</label>
+<input id="phone" name="phone" type="tel"placeholder="#########"/>
+<label for="address">Address</label>
+<input id="address" name="address" type="text"placeholder="City,State"/>
+<button type ="submit" class="btn">Send</button>
+    </form>
+  </section>
+ </main>
+
+    <footer>
+        <p> <span id="year"></span> Nasistu Wodajo . <a href="#top">Back to top</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
