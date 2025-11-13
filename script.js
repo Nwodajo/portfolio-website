@@ -1,9 +1,9 @@
 // Put current year in footer
-document.getElementById('year').textContent = new Data ().getFullYear();
+document.getElementById('year').textContent = new Data().getFullYear();
 
 // Theme toggle (also modefile  style via Dom)
 const toggle = document.getElementById('theme-toggle');
-toggle.addEventListener('click', () =>{
+toggle.addEventListener('click', () => {
     document.body.classList.toggle('dark');
 });
 
