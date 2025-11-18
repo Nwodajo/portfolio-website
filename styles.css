@@ -42,9 +42,12 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 80px 20px;
+    padding: 40px 20px;
     text-align: center;
     border-radius: 10px;
+/* new lines to center + limit width */
+max-width: 900px;
+margin: 0 auto 40px;
 }
 
 .hero .avatar {
@@ -84,6 +87,8 @@ body {
     display: grid;
     gap: 16px;
     grid-template-columns: 1fr;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .card {
@@ -91,6 +96,7 @@ body {
     border-radius: var(--radius);
     overflow: hidden;
     background: #fff;
+    margin: 0 auto;
 }
 
 .card img {
