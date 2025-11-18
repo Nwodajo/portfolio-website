@@ -53,14 +53,18 @@
     <!-- Bootstrap Framework-->
      <link
 href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-rel="stylesheet"href="styles.css" />
-/>
+rel="stylesheet"/>
+
+<!-- Custom CSS-->
+
+<link rel="stylesheet"href="styles.css"/>
 </head>
+ 
 
 <body>
     <!-- < ! -- Header (Pattern: Hero/ Header) -->
     <header id="top">
-        <nav href="nav">
+        <nav aria-label="Main navigation">
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
@@ -94,11 +98,11 @@ rel="stylesheet"href="styles.css" />
             </ul>
         </section>
         <!-- (Projects: cards list)-->
-        <section id="Projects" classgi="container">
-            <h2>Projects</h2>
+        <section id="Projects" class="container">
+            <h2 id="project-titles"> Projects</h2>
             <div class="cards">
                 <article class="card" id="featured">
-                    <img src="" alt="Project screenshot" />
+                    <img src="https://github.com/Nwodajo/recipe-page" alt="Project screenshot" />
                     <h3>Recipe Page</h3>
                     <P>Responsive Doro Wat recipe page with interactive ingredient List</P>
                     <a class="btn btn-primary" href="#" target="_blank" rel="noreferrer">Live Demo</a>
@@ -119,6 +123,7 @@ rel="stylesheet"href="styles.css" />
                 <label for="address" class="form-label">Address</label>
                 <input id="address" name="address" type="text" placeholder="City,State" />
                 <button type="submit" class="btn btn-primary mt-3">Send</button>
+                <button id=" theme-toggle"aria-label= "Toggle dark or light them"></button>
             </form>
         </section>
     </main>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
