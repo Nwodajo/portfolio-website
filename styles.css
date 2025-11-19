@@ -38,7 +38,7 @@ body {
 
 /* HERO (Pattern: Hero)*/
 .hero {
-
+background-image: url("/images/background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -51,14 +51,37 @@ margin: 0 auto 40px;
 }
 
 .hero .avatar {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     border: 4px solid #222;
-    display: block;
-    margin: 0 outo 16px;
+    
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.hero h1,
+ .hero p {
+    position: relative;
+    z-index: 2;
+ }
+ hero {
+background-image: linear-gradient(#f3e8e3, #45454f);
+background-size: cover;
+background-position: center;
+padding: 40px 20px;
+border-radius: 10px;
+position: relative;
 }
 
+.hero::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(255,255,255,0.3); /* soft white overlay */
+border-radius: 10px;
+}
 .tagline {
     font-size: 1.1rem;
     letter-spacing: 0.3px;
@@ -89,6 +112,16 @@ margin: 0 auto 40px;
     grid-template-columns: 1fr;
     max-width: 900px;
     margin: 0 auto;
+}
+#theme-toggle{
+    display: none;
+}
+select{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.card {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 .card {
