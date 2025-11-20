@@ -167,6 +167,16 @@ footer {
     border-color: #333;
 }
 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-form label {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
 
 /* Media queries (narrow/ medium / wide) */
 @media (min-width:600px) {
