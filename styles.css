@@ -66,13 +66,10 @@ header nav a:hover {
 
 .tagline {
     font-size: 1.1rem;
-    letter-spacing: 0.3px;
     color: #444 ;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 8px 20px;
-    list-style-type: disc;
-    padding-left: 20px;
+   margin: 12px 0;
+   text-align: center;
 }
 
 .container {
