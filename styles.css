@@ -90,6 +90,21 @@ margin: 0 auto 16px;
 margin: 8px 0;
 font-size: 2rem;
 }
+.hero.btn{
+    display: inline-block;
+    margin: 8px;
+    padding: 8px 16px;
+    background: #640a0a;
+    color: #f5f5f5;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.hero .btn:hover
+.hero.btn:focus{
+    background: #8b1111;
+}
 
 .tagline {
 max-width: 600px;
@@ -147,9 +162,9 @@ column-gap: 24px;
 
 /* CARDS (Projects) */
 .cards {
-display: grid;
+display: flex;
 gap: 16px;
-grid-template-columns: 1fr;
+justify-items: center;
 }
 
 .card {
@@ -157,13 +172,15 @@ background: #1d1d1d;
 border-radius: 12px;
 padding-bottom: 20px;
 box-shadow: 0 4px 8px rgba (0,0,0,0.2);
+max-width: 360px;
+width: 100%;
 }
 
 .card img {
 width: 100%;
-height: auto;
+height: 200px;
 object-fit: cover;
-border-radius: 0;
+border-radius: 8px 8px 0 0;
 display: block;
 }
 
@@ -171,10 +188,24 @@ display: block;
 padding: 16px;
 }
 
+ 
+.card {
+    margin: auto;
+}
 .card h3 {
 margin-top: 0;
 margin-bottom: 8px;
 }
+.card {
+    max-width: 350px;
+    margin: 0 auto 60px auto;
+    background:#ffffff ;
+    border-radius: 12px;
+    padding-bottom: 20px;
+    box-shadow: 04px 8px rgba(0,0,0,0.15);
+
+}
+
 
 /* BUTTONS */
 .btn {
@@ -220,7 +251,13 @@ background: rgba(255, 255, 255, 0.6);
 max-width: 600px;
 margin: 0 auto;
 }
-
+.contact-section{
+    max-width: 700px;
+    margin: 40px auto 80px;
+}
+  h2 {
+    text-align: center;
+}
 .form-group {
 margin-bottom: 12px;
 display: flex;
