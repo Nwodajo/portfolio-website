@@ -1,140 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <!--SEO Meta Tags-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        contact="Nasistu Wodajo - Customer-focused junior Software Engineer learning at Techtonica. Passionate about building responsive, accessible, and user-friendly websites.">
-    <meta name="keywords"
-        content="Nasistu Wodajo,Software Engineer,frontend,Portfolio,HTML,CSS,JavaScript,Bootstrap,Techtonica,accessibility, SEO">
+<meta charset="UTF-8" />
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0"
+/>
 
+<title>Nasistu Wodajo | Portfolio</title>
 
-    <!--Open Graph Meta Tags (for social sharing)-->
-    <meta property="og:title" content="Nasistu Wodajo - Portfolio"/>
-    <meta property="og: description" content="Frontend  developer Portfolio showcasing  and accessibility web projects"/>
-    <meta property="og:image" content="images/Portfolio-preview.png"/>
-    <meta property="og:url" content=""/>
-    <meta property="og:type" content="websites"/>
+<!-- Basic SEO -->
+<meta
+name="description"
+content="Portfolio of Nasistu Wodajo, a customer-focused junior software engineer and Techtonica apprentice who enjoys building clean, user-friendly interfaces."
+/>
+<meta
+name="keywords"
+content="Nasistu Wodajo, Software Engineer, Techtonica, HTML, CSS, JavaScript, portfolio, accessibility, SEO"
+/>
 
-    <!-- Twitter Card Meta Tags -->
+<!-- Open Graph (social sharing) -->
+<meta property="og:title" content="Nasistu Wodajo | Portfolio" />
+<meta
+property="og:description"
+content="Frontend developer portfolio showcasing responsive and accessible web projects."
+/>
+<meta property="og:type" content="website" />
+<!-- If you have this image in images/ -->
+<meta property="og:image" content="images/recipe-screenshot.png" />
 
-    <meta name="twitter:card" content="summary_large_image">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Nasistu Wodajo | Portfolio" />
+<meta
+name="twitter:description"
+content="Frontend developer portfolio showcasing responsive and accessible web projects."
+/>
+<meta
+name="twitter:image"
+content="images/recipe-screenshot.png"
+/>
 
-    <meta name="twitter:title" content="Nasistu Wodajo - Portfolio"/>
-
-    <meta name="twitter:description"
-        content="Frontend developer portfolio showcasing responsive and accessible web projects."/>
-
-    <meta name="twitter:image" content="images/Portfolio-preview.png"/>
-
-
-    <!-- JUSON- LD (Structured Data)-->
-     <script type="application/ld+json">
-        {
-            "@context":"https://schema.org",
-            7"name": "Nasistu Wodajo",0 8erd 3wçb'[mk.bcn 
-            "type": "Person",0
-            "url":"https://nasistu-portfolio.netlify.app/",
-            "jobTitle": "Software Engineer",
-            "sameAs": [
-"https://github.com/Nasistu",
-"https://www.linkedin.com/in/nasistu-kebede-/"
-
-
-        }
-     </script>
-<!-- Canonical & Robots for SEO -->
- <link rel="canonical" href="https://nasistu-portfolio.netlify.app/" />
+<!-- Canonical & robots -->
+<link
+rel="canonical"
+href="https://nasistu-portfolio.netlify.app/"
+/>
 <meta name="robots" content="index, follow" />
 
-    
-    <!-- Bootstrap Framework-->
-     <link
-href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-rel="stylesheet"/>
-
-<!-- Custom CSS-->
-
-<link rel="stylesheet"href="styles.css"/>
+<!-- Custom CSS -->
+<link rel="stylesheet" href="styles.css" />
 </head>
- 
 
 <body>
-    <!-- < ! -- Header (Pattern: Hero/ Header) -->
-    <header id="top">
-        <nav  class="nav" aria-label="Main navigation">
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-            <!-- <button id="theme-toggle " aria-label="Toggle theme"></button> -->
-        </nav>
-        <div class="hero">
-            <img class="avatar" src="images/nasu.png" alt="Nasistu headshot" />
-            <h1>Nasistu Wodajo</h1>
-            <p class=" tagline"> Customer-focused junior Software Engineer learning at Techtonica</p>
-            <div class="social">
-                <a href="https://github.com/Nwodajo" target="_blank" rel="noreferrer">GitHub</a>
-                <a href="https://www.linkedin.com/in/nasistu-kebede-/" target="_blank" rel="noreferrer">LinkedIn</a>
-                <a href="mailto: nasukebede00@gmail.com">Email</a>
-            </div>
-        </div>
-    </header>
-    <main>
-        <!-- <! About (semantic section/article)-->
-         <!-- Updated About Me section-->
-        <section id="about" class="container">
-            <h2> About Me</h2>
-            <p> I enjoy building clean, user-friendly interfaces and practicing problem solving every day.</p>
-            <ul class="skills">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Bootstrap</li>
-                <li>GitHub</li>
-                <li> Team collaboration</li>
-                <li>Problem Solving</li>
-            </ul>
-            </ul>
-        </section>
-        <!-- (Projects: cards list)-->
-        <section id="Projects" class="container">
-            <h2 id="project-titles"> Projects</h2>
-            <div class="cards">
-                <article class="card" id="featured">
-                    <img src="images/recipe-screenshot.png" alt="Project screenshot" />
-                    <h3>Recipe Page</h3>
-                    <P>Responsive Doro Wat recipe page with interactive ingredient List</P>
-                    <!--Live site link-->
-                    <a class="btn btn-primary" href="https://nwodajo.github.io/recipe-page/" target="_blank" rel="noreferrer">Live Demo</a>
-                    <!-- GitHub repo link-->
-                    <a class="btn outline-secondary" href="https://github.com/Nwodajo/recipe-page" target="_blank" rel="noreferrer">Source Code</a>
-                </article>
-            </div>
-        </section>
-        <!--Contact form with required fileds-->
-        <section id="contact" class="container">
-            <h2>Contact</h2>
-            <form class="contact-form">
-                <label for="name" class="form-label">Name <span aria-hidden="true">*</span></label>
-                <input id="name" name="name" type="text" required placeholder="Nasistu" />
-                <label for="email" class="form-label">Email<span aria-hidden="true">*</span></label>
-                <input id="email" name="email" type="email"required placeholder="nasukebede00@gmail.com"class="form-control"/>
-                <label for="phone" class="form-label">phone</label>
-                <input id="phone" name="phone" type="tel" placeholder="444444444" />
-                <label for="address" class="form-label">Address</label>
-                <input id="address" name="address" type="text" placeholder="City,State" />
-                <button type="submit" class="btn btn-primary mt-3">Send</button>
-                
-            </form>
-        </section>
-    </main>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+<a class="skip-link" href="#main-content">Skip to main content</a>
 
-    <footer>
-        <p> <span id="year"></span> Made by Nasistu Wodajo . <a href="#top">Back to top</a></p>
-    </footer>
-    <script src="script.js"></script>
-</body> 
+<!-- HEADER / NAV -->
+<header id="top">
+<nav class="nav" aria-label="Main navigation">
+<div class="nav-brand">NW</div>
 
+<a href="#about">About</a>
+<a href="#experience">Experience</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+
+<button id="theme-toggle" aria-label="Toggle dark mode">
+🌓
+</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+<img
+class="avatar"
+src="images/nasu 2.png"
+alt="Nasistu Wodajo smiling"
+/>
+<h1>Hi, I’m Nasistu 👋</h1>
+<p class="tagline">
+Customer-focused junior Software Engineer learning at Techtonica. I
+enjoy building clean, user-friendly interfaces and practicing problem
+solving every day.
+</p>
+
+<div class="social-links" aria-label="Social links">
+<a
+href="https://github.com/Nwodajo"
+target="_blank"
+rel="noreferrer"
+>GitHub</a
+>
+<a
+href="https://www.linkedin.com/in/nasistu-kebede-/"
+target="_blank"
+rel="noreferrer"
+>LinkedIn</a
+>
+<a href="mailto:nasukebede00@gmail.com">Email</a>
+</div>
+</section>
+</header>
+
+<!-- MAIN CONTENT -->
+<main id="main-content">
+<!-- ABOUT -->
+<section id="about" class="panel">
+<div class="container">
+<h2>About Me</h2>
+<p>
+I was born in Ethiopia and now live in the Bay Area. I enjoy
+building clean, user-friendly interfaces, solving problems with
+JavaScript, and collaborating with other developers. I’m excited to
+keep growing as a software engineer and use my skills to help
+people.
+</p>
+</div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="panel">
+<div class="container">
+<h2>Experience</h2>
+<p>
+I am a Techtonica apprentice, building projects with HTML, CSS, and
+JavaScript while collaborating with mentors and peers. I also bring
+strong customer-service experience from my previous roles, which
+helps me build user-focused products.
+</p>
+</div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="panel">
+<div class="container">
+<h2>Skills</h2>
+<ul class="two-col">
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>Bootstrap</li>
+<li>Git &amp; GitHub</li>
+<li>VS Code</li>
+</ul>
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="panel">
+<div class="container">
+<h2 id="project-title">Projects</h2>
+
+<div class="cards">
+<!-- Doro Wat project card -->
+<article class="card" id="featured-project">
+<img
+src="images/recipe-screenshot.png"
+alt="Screenshot of Doro Wat recipe page"
+/>
+<div class="card-body">
+<h3>Doro Wat Recipe Page</h3>
+<p>
+Responsive Doro Wat recipe page built with HTML, CSS, and
+JavaScript. Users can highlight ingredients as they cook and
+read clear step-by-step instructions.
+</p>
+<a
+class="btn"
+href="#"
+target="_blank"
+rel="noreferrer"
+>Live Demo</a
+>
+<a
+class="btn outline"
+href="https://github.com/Nwodajo/recipe-page"
+target="_blank"
+rel="noreferrer"
+>Source Code</a
+>
+</div>
+</article>
+</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="panel contact-panel">
+<div class="container">
+<h2>Contact</h2>
+
+<form class="contact-form">
+<div class="form-group">
+<label for="name">
+Name <span aria-hidden="true">*</span>
+</label>
+<input
+id="name"
+name="name"
+type="text"
+required
+placeholder="Nasistu"
+/>
+</div>
+
+<div class="form-group">
+<label for="email">
+Email <span aria-hidden="true">*</span>
+</label>
+<input
+id="email"
+name="email"
+type="email"
+required
+placeholder="nasukebede00@gmail.com"
+/>
+</div>
+
+<div class="form-group">
+<label for="phone">Phone</label>
+<input
+id="phone"
+name="phone"
+type="tel"
+placeholder="4444444444"
+/>
+</div>
+
+<div class="form-group">
+<label for="address">Address</label>
+<input
+id="address"
+name="address"
+type="text"
+placeholder="City, State"
+/>
+</div>
+
+<div class="form-group">
+<label for="message">
+Message <span aria-hidden="true">*</span>
+</label>
+<textarea
+id="message"
+name="message"
+rows="4"
+required
+></textarea>
+</div>
+
+<button type="submit" class="btn submit-btn">
+Send
+</button>
+</form>
+</div>
+</section>
+</main>
+
+<!-- FOOTER -->
+<footer>
+<p>
+<span id="year"></span> Made by Nasistu Wodajo.
+<a href="#top">Back to top</a>
+</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
 </html>
