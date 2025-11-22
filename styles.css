@@ -80,7 +80,7 @@ cursor: pointer;
 
 /* HERO */
 .hero {
-padding: 48px 16px 32px;
+padding: 47px 16px 32px;
 
 }
 
@@ -124,7 +124,7 @@ letter-spacing: 0.2px;
 .social-links {
 display: flex;
 justify-content: center;
-gap: 15px;
+gap: 16px;
 margin-top: 8px;
 flex-wrap: wrap;
 }
