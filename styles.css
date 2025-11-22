@@ -59,6 +59,10 @@ text-decoration: underline;
 .nav-brand {
 font-weight: 700;
 margin-right: 16px;
+border: 1px solid #b49493;
+background-color: rgba(20,20,20 0.5);
+border-radius: 50%;
+padding: 4px 6px;
 }
 
 #theme-toggle {
