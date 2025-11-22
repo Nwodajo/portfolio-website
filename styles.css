@@ -152,7 +152,7 @@ padding: 32px 16px;
 .container {
 max-width: 960px;
 margin: 0 auto;
-padding: 0 7px;
+padding: 0 8px;
 }
 
 h2 {
@@ -165,7 +165,7 @@ margin-bottom: 12px;
 list-style-type: disc;
 padding-left: 18px;
 columns: 2;
-column-gap: 24px;
+column-gap: 23px;
 }
 
 /* CARDS (Projects) */
