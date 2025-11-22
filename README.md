@@ -7,7 +7,7 @@ It showcases my skills, projects, contact information, and learnings as a junior
 
 ## 🚀 Live Demo
 
-🔗 **https://nasistu-portfolio.netlify.app/**
+🔗 **https://nasistu-portfolio.netlify.app**
 
 You can view the full live version of my website at the link above.
 
