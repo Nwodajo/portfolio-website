@@ -2,6 +2,9 @@
 --pad: 16px;
 --radius: 10px;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 /* Global reset */
 * {
