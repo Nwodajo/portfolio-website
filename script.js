@@ -20,9 +20,9 @@ const isDark = document.body.classList.contains("dark");
 localStorage.setItem("theme", isDark ? "dark" : "light");
 });
 }
-
+ 
 // Load saved theme on refresh
-const savedTheme = localStorage.getItem("theme");
+const savedTheme = localStorage.getItem ("theme");
 if (savedTheme === "dark") {
 document.body.classList.add("dark");
 }
