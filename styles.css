@@ -124,7 +124,7 @@ letter-spacing: 0.2px;
 .social-links {
 display: flex;
 justify-content: center;
-gap: 16px;
+gap: 15px;
 margin-top: 8px;
 flex-wrap: wrap;
 }
