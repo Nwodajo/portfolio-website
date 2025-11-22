@@ -5,7 +5,7 @@ It showcases my skills, projects, contact information, and learnings as a junior
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 🔗 **https://nasistu-portfolio.netlify.app**
 
@@ -99,4 +99,4 @@ A responsive recipe project with:
 
 ## 📄 License
 
-This project is for educational purposes only.
+This project is for educational purposes only .
